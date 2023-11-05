@@ -1,11 +1,14 @@
 # React + Vite - Cards view
 
 ## Acesso web ao projeto
-
-Baixe o projeto e execute:
+```
+Baixe o projeto e dentro da pasta do projeto execute:
+# instalar dependências
 npm install
-npm run dev
 
+# executar o projeto
+npm run dev
+```
 ## Sobre o projeto
 Projeto executado para fixar conhecimentos sobre React criando uma página simples com rotas simples para exemplificar os conceitos do framework.
 Utilizado: Framework React + Vite - CSS - CSS MODULE - HTML 5 - JavaScript
