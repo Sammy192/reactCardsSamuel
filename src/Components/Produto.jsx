@@ -8,6 +8,7 @@ const Produto = () => {
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState(null);
   const { id } = useParams();
+  const baseURLProduto = "https://ranekapi.origamid.dev/json/api/produto/";
 
   React.useEffect(() => {
     async function fetchProduto(url) {
@@ -23,7 +24,7 @@ const Produto = () => {
       }
     }
 
-    fetchProduto(`https://ranekapi.origamid.dev/json/api/produto/${id}`);
+    fetchProduto(baseURLProduto+id);
 
   }, [id]);
 
@@ -37,9 +38,9 @@ const Produto = () => {
         title={`Ranek | ${produto.nome}`}
         description={`Ranek | Esse é um produto: ${produto.nome}`}     
       />
-      {produto.fotos.map((foto) => {
+      {produto.fotos.map((foto) => (
         <img key={foto.src} src={foto.src} alt={foto.titulo} />
-      })}
+      ))}
       <div>
           <h1>{produto.nome}</h1>
           <span className={styles.preco}>R$ {produto.preco}</span>
