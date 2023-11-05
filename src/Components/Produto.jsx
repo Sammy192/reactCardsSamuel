@@ -28,7 +28,7 @@ const Produto = () => {
 
   }, [id]);
 
-  if (loading) return <div>Carregando...</div>;
+  if (loading) return <div className='loading'></div>;
   if (error) return <p>{error}</p>;
   if (produto === null) return null;
 
