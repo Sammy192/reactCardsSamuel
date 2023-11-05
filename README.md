@@ -1,8 +1,16 @@
-# React + Vite
+# React + Vite - Cards view
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Acesso web ao projeto
 
-Currently, two official plugins are available:
+Baixe o projeto e execute:
+npm install
+npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre o projeto
+Projeto executado para fixar conhecimentos sobre React criando uma página simples com rotas simples para exemplificar os conceitos do framework.
+Utilizado: Framework React + Vite - CSS - CSS MODULE - HTML 5 - JavaScript
+
+## Layout mobile
+
+![image](https://github.com/Sammy192/reactCardsSamuel.github.io/assets/53224915/5607e329-9f5f-4192-bb8d-32ac3b96f670)
+![image](https://github.com/Sammy192/reactCardsSamuel.github.io/assets/53224915/7ec8dd68-7113-4ee8-8837-16e1b9797caa)
