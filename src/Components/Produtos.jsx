@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from '../Produtos.module.css';
+import styles from './Produtos.module.css';
 import { Link } from 'react-router-dom';
-import Head from '../Head';
+import Head from './Head';
 
 const Produtos = () => {
   const [produtos, setProdutos] = React.useState(null);
