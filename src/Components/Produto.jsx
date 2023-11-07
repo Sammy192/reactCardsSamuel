@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Produto.module.css';
+import styles from '../Produto.module.css';
 import { useParams } from 'react-router-dom';
-import Head from './Head';
+import Head from '../Head';
 
 const Produto = () => {
   const [produto, setProduto] = React.useState(null);
