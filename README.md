@@ -1,6 +1,8 @@
 # React + Vite - Cards view
 
 ## Acesso web ao projeto
+Pode acessar utilizando o git hub pages: https://sammy192.github.io/reactCardsSamuel/
+
 ```
 Baixe o projeto e dentro da pasta do projeto execute:
 # instalar dependências
